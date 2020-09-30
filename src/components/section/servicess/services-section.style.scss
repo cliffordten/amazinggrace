@@ -1,0 +1,87 @@
+.container {
+  marquee {
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+    display: grid;
+    place-items: center;
+
+    a {
+      color: #b48817;
+    }
+  }
+
+  .service {
+    width: 100%;
+    margin-bottom: 2em;
+
+    .objective {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2em;
+      .sidetext {
+        width: 45%;
+      }
+
+      .image {
+        width: 50%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+      }
+    }
+
+    h3 {
+      color: #b48817;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: large;
+    }
+
+
+    .planning h5 {
+      text-indent: 20px;
+    }
+
+    .row {
+      .col-md-4 {
+        margin-top: 1em;
+
+        .decor {
+          border: 1px solid #b48817;
+          border-radius: 5px 5px 0 0;
+          h4 {
+            text-transform: capitalize !important;
+            font-size: larger;
+            text-align-last: center;
+          }
+        }
+
+        .decor-desc {
+          h5 {
+            font-size: 14px;
+            text-align: center;
+            padding-top: 1em;
+            padding: 1em 1.3em 0.4em;
+          }
+
+          border: 1px solid #b48817;
+          border-top: none;
+          margin-bottom: 0.6em;
+        }
+      }
+    }
+
+    .other {
+      margin-top: 1em;
+      h5 {
+        line-height: 1.5em;
+      }
+    }
+  }
+}

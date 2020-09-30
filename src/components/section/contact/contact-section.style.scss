@@ -1,0 +1,38 @@
+.imge, .col-md-12{
+  display: grid;
+  place-items: center;
+  img{
+    width: 4em;
+  }
+}
+.mt-2{
+  margin-top: 1em !important;
+  .col-md-12{
+    border: 1px solid #b48817;
+    padding: 10px
+    
+  }
+}
+button.btn.btn-primary{
+  width: 200px;
+    margin-top: 1em;
+    background-color: #b48817;
+    border-color: #b48817;
+
+    &:hover{
+      background-color: #8f6909;
+      border-color: #8f6909;;
+    }
+}
+div.subject{
+  width: 100%!important;
+}
+
+input, textarea{
+  border-color: #b48817;
+}
+
+label{
+  margin-bottom: 1.3em;
+  font-family: "SansProRegular";
+}

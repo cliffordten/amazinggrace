@@ -1,0 +1,128 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dresses/IMG-20200630-WA0282.jpg dresses/0.jpg\n",
+      "dresses/IMG-20200630-WA0175.jpg dresses/1.jpg\n",
+      "dresses/IMG-20200630-WA0280.jpg dresses/2.jpg\n",
+      "dresses/IMG-20200630-WA0283.jpg dresses/3.jpg\n",
+      "dresses/IMG-20200630-WA0281.jpg dresses/4.jpg\n",
+      "dresses/IMG-20200630-WA0172.jpg dresses/5.jpg\n",
+      "dresses/IMG-20200630-WA0174.jpg dresses/6.jpg\n",
+      "dresses/IMG-20200630-WA0176.jpg dresses/7.jpg\n",
+      "dresses/IMG-20200630-WA0284.jpg dresses/8.jpg\n",
+      "dresses/IMG-20200630-WA0285.jpg dresses/9.jpg\n",
+      "dresses/IMG-20200630-WA0173.jpg dresses/10.jpg\n",
+      "dresses/IMG-20200630-WA0177.jpg dresses/11.jpg\n",
+      "logo/AGDArtboard 2 copy.png logo/0.jpg\n",
+      "logo/Amazing GraceDecor.ai logo/1.jpg\n",
+      "logo/AGDArtboard 2.png logo/2.jpg\n",
+      "logo/AGDArtboard 2 copy 3.png logo/3.jpg\n",
+      "logo/AGDArtboard 2 copy 6.png logo/4.jpg\n",
+      "logo/AGDArtboard 2 copy 7.png logo/5.jpg\n",
+      "logo/AGDArtboard 2 copy 4.png logo/6.jpg\n",
+      "logo/AGDArtboard 2 copy 2.png logo/7.jpg\n",
+      "flowers/IMG-20200630-WA0253.jpg flowers/0.jpg\n",
+      "flowers/IMG-20200630-WA0248.jpg flowers/1.jpg\n",
+      "flowers/IMG-20200630-WA0252.jpg flowers/2.jpg\n",
+      "flowers/IMG-20200630-WA0251.jpg flowers/3.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-23-11.png shoes/0.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-23-44.png shoes/1.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-23-33.png shoes/2.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-23-27.png shoes/3.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-24-17.png shoes/4.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-23-02.png shoes/5.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-24-07.png shoes/6.jpg\n",
+      "shoes/Screenshot_2020-08-09-22-25-20.png shoes/7.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-24-25.png shoes/8.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-24-42.png shoes/9.jpg\n",
+      "shoes/Screenshot_2020-08-07-18-22-48.png shoes/10.jpg\n",
+      "team/9.jpg team/0.jpg\n",
+      "team/5.jpg team/1.jpg\n",
+      "team/8.jpg team/2.jpg\n",
+      "team/7.jpg team/3.jpg\n",
+      "team/3.jpg team/4.jpg\n",
+      "team/1.jpg team/5.jpg\n",
+      "team/2.jpg team/6.jpg\n",
+      "team/4.jpg team/7.jpg\n",
+      "team/6.jpg team/8.jpg\n",
+      "chairproofs/IMG-20200630-WA0070.jpg chairproofs/0.jpg\n",
+      "chairproofs/IMG-20200630-WA0104.jpg chairproofs/1.jpg\n",
+      "chairproofs/IMG-20200630-WA0068.jpg chairproofs/2.jpg\n",
+      "chairproofs/IMG-20200630-WA0066.jpg chairproofs/3.jpg\n",
+      "chairproofs/IMG-20200630-WA0064.jpg chairproofs/4.jpg\n",
+      "chairproofs/IMG-20200630-WA0092.jpg chairproofs/5.jpg\n",
+      "chairproofs/IMG-20200630-WA0063.jpg chairproofs/6.jpg\n",
+      "chairproofs/IMG-20200630-WA0094.jpg chairproofs/7.jpg\n",
+      "chairproofs/IMG-20200630-WA0069.jpg chairproofs/8.jpg\n",
+      "chairproofs/IMG-20200630-WA0071.jpg chairproofs/9.jpg\n",
+      "chairproofs/IMG-20200630-WA0048.jpg chairproofs/10.jpg\n",
+      "chairproofs/IMG-20200630-WA0093.jpg chairproofs/11.jpg\n",
+      "chairproofs/IMG-20200630-WA0067.jpg chairproofs/12.jpg\n",
+      ".ipynb_checkpoints/Untitled-checkpoint.ipynb .ipynb_checkpoints/0.jpg\n"
+     ]
+    },
+    {
+     "ename": "NotADirectoryError",
+     "evalue": "[Errno 20] Not a directory: 'icon.png'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNotADirectoryError\u001b[0m                        Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-16-8c55161a681a>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mdir_\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlistdir\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m     \u001b[0;32mfor\u001b[0m \u001b[0mcount\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfilename\u001b[0m \u001b[0;32min\u001b[0m \u001b[0menumerate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlistdir\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mdir_\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      7\u001b[0m         \u001b[0mdst\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcount\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m+\u001b[0m \u001b[0;34m\".jpg\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      8\u001b[0m         \u001b[0msrc\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mdir_\u001b[0m \u001b[0;34m+\u001b[0m\u001b[0;34m\"/\"\u001b[0m\u001b[0;34m+\u001b[0m \u001b[0mfilename\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNotADirectoryError\u001b[0m: [Errno 20] Not a directory: 'icon.png'"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "\n",
+    "os.listdir()\n",
+    "\n",
+    "for dir_ in os.listdir():\n",
+    "    for count, filename in enumerate(os.listdir(dir_)): \n",
+    "        dst = str(count) + \".jpg\"\n",
+    "        src = dir_ +\"/\"+ filename \n",
+    "        dst = dir_ +\"/\"+ dst \n",
+    "# rename() function will \n",
+    "        # rename all the files \n",
+    "        os.rename(src, dst) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

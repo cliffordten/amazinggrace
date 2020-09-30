@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* FONT FAMILY */
+@font-face {
+  font-family: "SansProBold";
+  src: url(./assets/fonts/Neuton-ExtraBold.ttf);
+  font-size: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "SansProSemiBold";
+  src: url(./assets/fonts/Neuton-Bold.ttf);
+  font-size: 600;
+}
+@font-face {
+  font-family: "SansProRegular";
+  src: url(./assets/fonts/Neuton-Regular.ttf);
+  font-size: 400 !important;
+}
+@font-face {
+  font-family: "SansProRegularItalic";
+  src: url(./assets/fonts/Neuton-Italic.ttf);
+  font-size: 400;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "SansProRegular";
 }

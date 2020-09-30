@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* FONT FAMILY */
+@font-face {
+  font-family: "SansProBold";
+  src: url(./assets/fonts/Neuton-ExtraBold.ttf);
+  font-size: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "SansProSemiBold";
+  src: url(./assets/fonts/Neuton-Bold.ttf);
+  font-size: 600;
+}
+@font-face {
+  font-family: "SansProRegular";
+  src: url(./assets/fonts/Neuton-Regular.ttf);
+  font-size: 400 !important;
+}
+@font-face {
+  font-family: "SansProRegularItalic";
+  src: url(./assets/fonts/Neuton-Italic.ttf);
+  font-size: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "SansProRegular";
 }
